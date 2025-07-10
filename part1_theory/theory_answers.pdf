@@ -1,0 +1,73 @@
+1. Short Answer Questions
+Q1: GitHub Copilot Benefits and Limitations
+
+Benefits:
+
+Auto-suggests boilerplate and repetitive code.
+
+Speeds up prototyping.
+
+Reduces context switching for developers.
+
+Limitations:
+
+May generate incorrect/insecure code.
+
+Lacks awareness of business logic.
+
+Risk of over-reliance by junior devs.
+
+Q2: Supervised vs. Unsupervised in Bug Detection
+
+Supervised: Labeled bug data → train model to detect known bugs.
+
+Unsupervised: Finds anomalies (unknown bugs) in code metrics/logs.
+
+Compare: Supervised is accurate for known issues, unsupervised is better for novel errors.
+
+Q3: Why Bias Mitigation Matters in Personalization
+
+Bias skews recommendations → unfair experiences.
+
+Example: Women/minorities receiving fewer job/app suggestions.
+
+Ensures diversity, inclusivity, and ethical AI.
+
+2: Case Study Answer: How AIOps Improves Software Deployment Efficiency
+AIOps (Artificial Intelligence for IT Operations) enhances deployment efficiency by using machine learning and data analytics to automate and optimize software delivery processes. It improves the reliability, speed, and intelligence of CI/CD pipelines in several key ways:
+
+ Example 1: Real-Time Anomaly Detection
+AIOps tools continuously monitor logs, metrics, and traces from CI/CD pipelines. They use pattern recognition to detect unusual behaviors such as:
+
+Longer-than-usual build times
+
+Unexpected error spikes
+
+Failed test cases not previously seen
+
+Impact:
+This enables teams to identify and act on potential issues before they impact end users, preventing faulty releases and reducing downtime.
+
+ Example 2: Predictive Deployment Failure Detection
+By learning from historical deployment data, AIOps systems can:
+
+Predict which code changes are likely to cause failures
+
+Alert developers to risky commits
+
+Recommend rollback strategies or test improvements
+
+Impact:
+This predictive capability improves planning, reduces post-deployment incidents, and helps ensure smoother rollouts.
+
+ Bonus Insight: Self-Healing and Auto-Remediation
+Advanced AIOps platforms (e.g., Dynatrace, Splunk) can automatically:
+
+Restart failed services
+
+Scale infrastructure in response to performance anomalies
+
+Trigger incident workflows without manual intervention
+
+ Summary:
+AIOps transforms traditional DevOps pipelines by adding intelligence, foresight, and automation. It empowers development teams to deploy faster and more confidently while minimizing risk.
